@@ -23,13 +23,13 @@ const Footer = () => {
     <div className="bg-[#27282B] w-[100%] h-[581px] mx-auto pt-[66px] flex flex-col items-center mt-[200px] font-Montserrat">
       {/* <div className="w-1728x]"> */}
       <Image src={ftr} alt="" width={270.87} height={70} />
-      <p className="w-[936.25px] h-[58px] text-center text-[#8C8C8C] text-lg leading-[28.5px] text-bold mt-[38px]">
+      <p className="w-[936.25px] h-[58px] text-center text-[#8C8C8C] leading-[28.5px] text-bold mt-[38px]">
         We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud equip ex ea commodo consequat...{" "}
         <span className="text-[#AEBDE5]">Read More</span>
       </p>
-      <div className="social mt-7 flex items-center justify- space-x-[38px]">
+      <div className="social mt-[28.52px] flex items-center justify- space-x-[38px]">
         <div className="w-[50px] h-[50px] rounded-full bg-[#3D3D40] flex justify-center">
           <Image width={13} height={23} className="" src={fb} alt="" />
         </div>
@@ -47,7 +47,6 @@ const Footer = () => {
         </div>
       </div>
       {/* social end */}
-
       <div className="flex justify-center items-center space-x-[120px] mt-[77px]">
         <div className="flex text-white justify-center items-center">
           <div className="p-[17px] w-[65px] rounded-full bg-[#343538]">
