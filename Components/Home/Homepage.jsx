@@ -7,7 +7,7 @@ import Vision from './Vision';
 
 const Homepage = () => {
     return (
-        <div>
+        <div className="font-poppins">
             <Bonjour/>
             <Notre/>
             <Mission/>

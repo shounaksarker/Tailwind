@@ -20,7 +20,7 @@ const Footer = () => {
   const location = <FontAwesomeIcon icon={faLocation} />;
   const fax = <FontAwesomeIcon icon={faPrint} />;
   return (
-    <div className="bg-[#27282B] w-[100%] h-[581px] mx-auto pt-[66px] flex flex-col items-center mt-[200px]">
+    <div className="bg-[#27282B] w-[100%] h-[581px] mx-auto pt-[66px] flex flex-col items-center mt-[200px] font-Montserrat">
       {/* <div className="w-1728x]"> */}
       <Image src={ftr} alt="" width={270.87} height={70} />
       <p className="w-[936.25px] h-[58px] text-center text-[#8C8C8C] text-lg leading-[28.5px] text-bold mt-[38px]">
